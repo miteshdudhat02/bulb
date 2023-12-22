@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: uppercase;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  /* background-color: black; */
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.cont {
+  height: 40rem;
+  width: 30rem;
+  background-color: white;
+}
+.cont img {
+  height: 100%;
+  width: 100%;
+}
+
+.on {
+  display: none;
+}
+
+.btn {
+  height: 1.8rem;
+  width: 5rem;
+  border: none;
+  border-radius: 50px;
+  position: absolute;
+  top: 5rem;
+  right: 5rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#offbtn {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
